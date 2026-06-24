@@ -10,11 +10,11 @@ Text classification is a foundational task in modern AI, powering systems like s
 Text_Document_Classification/
 │
 ├── Data/
-│   └── documents.csv                  # Dataset containing raw text and corresponding labels
+│   └── synthetic_text_data.csv                  # Dataset containing raw text and corresponding labels
 │
 ├── notebooks/                         # (Optional) Jupyter notebooks for text exploration
 │
 ├── .gitignore                         # Prevents tracking virtual environment (venv/)
-├── classify.py                        # Python script for text preprocessing, vectorization, and modeling
+├── model.py                        # Python script for text preprocessing, vectorization, and modeling
 ├── README.md                          # Project documentation
 └── requirements.txt                   # List of Python dependencies (scikit-learn, pandas, nltk, etc.)
